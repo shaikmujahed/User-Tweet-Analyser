@@ -5,7 +5,7 @@ from database import Database
 
 
 app = Flask(__name__)
-app.secret_key='1084'
+app.secret_key='XXXX'
 
 Database.initialise(database='postgres',user='postgres',password='postgre_sql',host='localhost')
 
